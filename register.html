@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+			<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style type="text/css">
+			body{
+    		background:#f8f6f9;  	
+    	}
+    	.mycenter{
+    		margin-top:100px;
+    		margin-left:auto;
+    		margin-right:auto;
+    		height:350px;
+    		width:500px;
+    		padding:5%;
+    		padding-left:5%;
+    		padding-right:5%;
+    	}
+    	.mycenter mysign{
+    		width:440px;
+    	}
+    	.mycenter input ,checkbox,button{
+    		margin-top:2%;
+    		margin-left:10%;
+    		margin-right:10%;
+    	}
+    	.mycheckbox{
+    		margin-top:10px;
+    		margin-left:40px;
+    		margin-bottom:10px;
+    		height:10px;
+    	}
+		</style>
+	</head>
+	<body>
+		<form action="login.php" method="post">
+			<div class="mycenter">
+				<div class="mysign">
+					<div class="col-lg-11 text-cneter text-info" style="text-align: center;">
+						<h2>欢迎注册</h2>
+					</div>
+					<div class="col-lg-10"  >
+						<input type="text" class="form-control" name="username" placeholder="UserAccount" required autofocus />
+						
+					</div>
+				
+					<div class="col-lg-10">
+						<input type="password" class="form-control" name="passord" placeholder="Passord" required autofocus />
+					</div>
+					<div class="col-lg-10">
+						<button type="button" class="btn btn-success col-lg-12">注册</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

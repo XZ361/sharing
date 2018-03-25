@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style type="text/css">
+			body{
+    		background:url("https://www.oschina.net/dist/oschina/home/login/imgs/body-bg.png");
+    		background-size:100% 150%;	
+    	}
+    	.mycenter{
+    		margin-top:100px;
+    		margin-left:auto;
+    		margin-right:auto;
+    		height:350px;
+    		width:500px;
+    		padding:5%;
+    		padding-left:5%;
+    		padding-right:5%;
+    	}
+    	.mycenter mysign{
+    		width:440px;
+    	}
+    	.mycenter input ,checkbox,button{
+    		margin-top:2%;
+    		margin-left:10%;
+    		margin-right:10%;
+    	}
+    	.mycheckbox{
+    		margin-top:10px;
+    		margin-left:40px;
+    		margin-bottom:10px;
+    		height:10px;
+    	}
+		</style>
+	</head>
+	<body>
+		<form action="login.php" method="post">
+			<div class="mycenter">
+				<div class="mysign">
+					<div class="col-lg-11 text-cneter text-info" style="text-align: center;">
+						<h2>欢迎登陆</h2>
+					</div>
+					<div class="col-lg-10"  >
+						<input type="text" class="form-control" name="user" class="glyphicon glyphicon-user" placeholder="UserAccount" required autofocus />
+					</div>
+					<div class="col-lg-10">
+						<input type="password" class="form-control" name="pass" placeholder="Passord" required autofocus />
+					</div>
+					<div class="col-lg-10" style="margin-left: 390px;margin-top: 20px;">
+						<input type="submit" class="btn btn-success col-lg-12"></input>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
